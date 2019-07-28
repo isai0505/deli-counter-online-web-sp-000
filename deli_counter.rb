@@ -17,7 +17,7 @@ def take_a_number(line, new_person)
 end
 
 def now_serving(next_person)
-  if next_person > 0
+  if next_person < 1
   puts "There is nobody waiting to be served!"
 end
 end
