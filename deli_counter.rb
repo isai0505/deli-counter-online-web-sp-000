@@ -11,5 +11,6 @@ def line(array)
   end
 end
 
-def take_a_number
+def take_a_number(line, new_person)
+  line.push(new_person)
 end
